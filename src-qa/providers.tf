@@ -10,7 +10,7 @@ terraform {
 
   backend "s3" {
     bucket = "atabek"
-    key    = "./terraform-s3-static-website/src/.terraform/terraform.tfstate"
+    key    = "./terraform-s3-static-website/src-qa/.terraform/qa-terraform.tfstate"
     region = "eu-west-1"
   }
 }

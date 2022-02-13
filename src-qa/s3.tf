@@ -31,4 +31,3 @@ resource "aws_s3_bucket" "atabek1" {
 
   tags = var.common_tags
 }
-
